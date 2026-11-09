@@ -1,4 +1,4 @@
-::: {align="center"}
+
 # 🎵 Sistema Musical
 
 ### ✨ Um cantinho para cadastrar e organizar músicas!
