@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Principal - Sistema Musical</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100  100%27><text y=%27.9em%27 font-size=%2790%27>🎵</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Container: caixa com largura máxima, centralizada. Usada em todas as telas, menos no login. -->
+     <div class="container">
+        <!-- topbar:barra de cima, 0 css (flex-end) joga o botão sair para a direita -->
+        <div class="topbar">
+            <a href="login.HTML" class="btn-back">🚪 Sair</a>
+        </div>
+
+        <!-- Page-header: as boas-vindas, centralizadas. -->
+         <div class="page-header">
+            <h1>🎵Sistema Musical</h1>
+            <p>Olá, <strong>admin</strong>! O que deseja fazer?</p>
+         </div>
+
+         <!-- menu-grid: a grade dos 3 cards, 0 CSS usa display: grid para colocá-los lado a lado. -->
+          <div class="menu-grid">
+            <a href="cadastro_artista.HTML">
+                <div class="menu-card icon">🎤</div>
+                <div class="menu-card-title">Gerenciar Artistas</div>
+                <div class="menu-card-desc">Cadastre e edite artistas</div>
+            </a>
+          </div>
+
+          <div class="menu-card">
+            <a href="cadastro_musica.HTML">
+          <div class="menu-card-icon">🎵</div>
+          <div class="menu-card-title">Cadastrar Músicas</div>
+          <div class="menu-card-desc">Adicione músicas ao sistema</div>
+          </a>
+        </div>
+
+         <div class="menu-card">
+            <a href="listagem_musicais.HTML"
+         </div>
+     </div>
+
+    
+</body>
+</html>
